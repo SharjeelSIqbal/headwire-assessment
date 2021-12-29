@@ -17,20 +17,26 @@ const GridHeader = () =>  {
     heading: 'BLOG',
     path: '/blog'
   }, {
-    heading: 'CONTACT',
+    heading: 'CONTACTS',
     path: '/contact'
   }]
 
  return (
-    <div className='header row-center'>
+    <div className='header relative row-center'>
      <ul className='header-list row-center'>
-       {headerLinks.map(link => link.heading !== 'CONTACTS'
-         ? <li key={link.path} className='header-links white-text row-center'>
-            <a>{link.heading}<span className='chevron-bottom'></span></a>
+       {headerLinks.map(link => {
+         if(link.heading !== 'CONTACTS') {
+          return (
+            <li key={link.path} className='header-links white-text row-center relative'>
+              <a>{link.heading}<span className='chevron-bottom'></span></a>
+              {window.location.pathname === link.path && <div className="triangle" />}
            </li>
-         : <li key={link.path} className='header-links white-text row-center'>
-            <a>{link.heading}</a>
-           </li>
+             )}
+             return (
+              <li key={link.path} className='header-links white-text row-center relative'>
+                <a>{link.heading}</a>
+              </li>
+             )}
          )}
     </ul>
   </div>

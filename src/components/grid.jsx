@@ -5,7 +5,7 @@ const Grid = () => {
   const bgImg = ['/imgs/slider1-home1.jpeg', '/imgs/slider2-home1.jpeg', '/imgs/slider3-home1.jpeg']
 
   return (
-    <div className='grid'>
+    <div className='grid relative'>
       <GridLogo />
       <GridHeader />
       <GridMenu />
