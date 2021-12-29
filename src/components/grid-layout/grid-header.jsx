@@ -18,7 +18,7 @@ const GridHeader = () =>  {
     path: '/blog'
   }, {
     heading: 'CONTACTS',
-    path: '/contact'
+    path: '/contacts'
   }]
 
  return (
@@ -27,14 +27,15 @@ const GridHeader = () =>  {
        {headerLinks.map(link => {
          if(link.heading !== 'CONTACTS') {
           return (
-            <li key={link.path} className='header-links white-text row-center relative'>
-              <a>{link.heading}<span className='chevron-bottom'></span></a>
+            <li key={link.path} className='header-links row-center relative'>
+              <a className='white-text' href={link.path}>{link.heading}<span className='chevron-bottom'></span></a>
               {window.location.pathname === link.path && <div className="triangle" />}
            </li>
              )}
              return (
-              <li key={link.path} className='header-links white-text row-center relative'>
-                <a>{link.heading}</a>
+              <li key={link.path} className='header-links row-center relative'>
+                <a className='white-text' href={link.path}>{link.heading}</a>
+                 {window.location.pathname === link.path && <div className="triangle" />}
               </li>
              )}
          )}

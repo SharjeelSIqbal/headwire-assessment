@@ -1,7 +1,10 @@
-import { Grid } from './components'
+import { Grid, Founder } from './components'
 
 const App = () => (
+  <>
     <Grid />
+    <Founder />
+  </>
   )
 
 
