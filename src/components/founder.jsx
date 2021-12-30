@@ -1,9 +1,9 @@
 const Founder = () => (
   <div className='founder-section row-center'>
     <div className="founder-container flex g-3 white-text relative">
-        <h2 className='m-0 w-50 lighter titillium founder-quote text-align-right'>
+        <h2 className='m-0 w-50 titillium founder-quote text-align-right'>
           "Even if you don't have a ready sketch of what you
-          want &mdash; we will help you get the result you
+          want &ndash; we will help you get the result you
           dream of."
         </h2>
       <div className="flex g-1 w-50">
