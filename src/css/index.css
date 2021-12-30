@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&family=Raleway:wght@100;400&family=Roboto&family=Rubik:wght@900&family=Titillium+Web:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&family=Mrs+Saint+Delafield&family=Raleway:wght@100;400&family=Roboto&family=Rubik:wght@900&family=Titillium+Web:wght@200;300&display=swap');
 
 body {
   margin: 0;
@@ -40,45 +40,6 @@ button {
 
 /* General stylings */
 
-.white-text {
-  color: whitesmoke;
-}
-
-.alternate-border-color {
-  border-color: #B6B6B8;
-}
-
-.relative {
-  position: relative;
-}
-
-
-/* Fonts */
-
-.raleway {
-  font-family: 'Raleway', sans-serif;
-}
-
-.merriweather{
-  font-family: 'Merriweather Sans', sans-serif;
-}
-.titillium {
-  font-family: 'Titillium Web', sans-serif;
-}
-
-.titillium-light {
-  font-family: 'Titillium Web', sans-serif;
-  font-weight: 200;
-}
-
-.roboto {
-  font-family: 'Roboto', sans-serif;
-}
-
-.generic-font {
-  font-family: 'Seymour One', sans-serif;
-  font-weight: bold;
-}
 
 /* Grid Layout */
 
@@ -235,7 +196,6 @@ button {
 
 .background-new {
   fill: transparent;
-  font-family: 'Rubik', sans-serif;
   font-size: 72px;
   stroke: #676767;
   font-weight: lighter;
