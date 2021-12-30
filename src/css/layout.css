@@ -43,6 +43,10 @@
   margin: 0;
 }
 
+.m-center {
+  margin: 0 auto;
+}
+
 .pt-half {
   padding-top: .5rem;
 }
@@ -213,4 +217,11 @@ width: 25%;
 
 .alternate-border-color {
   border-color: #B6B6B8;
+}
+
+
+/* heading */
+
+.bracket-heading {
+  color: #A7A6A6;
 }
