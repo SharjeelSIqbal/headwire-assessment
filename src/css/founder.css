@@ -6,3 +6,11 @@
 .founder-container {
   max-width: 50%;
 }
+
+.founder-quote {
+  direction: rtl;
+}
+
+.regular-text-direction {
+  direction: rtl;
+}
