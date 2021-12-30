@@ -1,16 +1,35 @@
 .founder-section {
+  padding: 3.25rem 0;
+  z-index: -3;
   background-color: #1A1A1A;
-  padding: 5.5rem 0;
 }
 
 .founder-container {
-  max-width: 50%;
+  max-width: 65%;
+  z-index: 3;
 }
 
 .founder-quote {
-  direction: rtl;
+  line-height: 2.5rem;
 }
 
-.regular-text-direction {
-  direction: rtl;
+.founder-image {
+  width: 110px;
+  height: 110px;
+}
+
+.founder-signature {
+  position: absolute;
+  width: 150px;
+  height: 100px;
+  bottom: -25px;
+  right: 100px;
+  letter-spacing: .2rem;
+  font-size: 90px;
+  z-index: -1;
+  fill: #676767;
+}
+
+.founder-signature-svg {
+  overflow: visible;
 }

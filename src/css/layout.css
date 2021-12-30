@@ -1,3 +1,117 @@
+/* Fonts */
+
+.raleway {
+  font-family: 'Raleway', sans-serif;
+}
+
+.merriweather{
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+.titillium {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.titillium-light {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 200;
+}
+
+.roboto {
+  font-family: 'Roboto', sans-serif;
+}
+
+.rubik {
+  font-family: 'Rubik', sans-serif;
+}
+
+.delafield {
+  font-family: 'Mrs Saint Delafield', sans-serif;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.lighter {
+  font-weight: lighter;
+}
+
+/* Margin and Padding */
+
+.m-0 {
+  margin: 0;
+}
+
+.m-2 {
+  margin: 2rem;
+}
+
+.mt-1 {
+  margin-top: 1rem;
+}
+
+.mt-2 {
+  margin-top: 2rem;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.mb-2 {
+  margin-bottom: 1rem;
+}
+
+.p-0 {
+  padding: 0;
+}
+
+.p-2 {
+  padding: 2rem;
+}
+
+.pt-half {
+  padding-top: .5rem;
+}
+
+.pt-1 {
+  padding-top: 1rem;
+}
+
+.pb-1{
+  padding-bottom: 1rem;
+}
+
+.pr-1 {
+  padding-right: 1rem;
+}
+
+.pr-2{
+  padding-right: 2rem;
+}
+
+.pl-1 {
+  padding-left: 1rem;
+}
+
+.pl-2 {
+  padding-left: 2rem;
+}
+
+.plr-5 {
+  padding: 0 8rem;
+}
+
+
+/* General Styling */
+
+.text-align-right {
+  text-align: right;
+}
+
+/* Flex */
+
 .column-center {
   display: flex;
   flex-direction: column;
@@ -11,8 +125,31 @@
   align-items: center;
 }
 
+.space-evenly {
+  justify-content: space-evenly;
+}
+
+/* Single Flex Properties */
+
 .flex {
   display: flex;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.space-between{
+  justify-content: space-between;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
 }
 
 .justify-end {
@@ -22,6 +159,43 @@
 .justify-self-end {
   justify-self: end;
 }
+
+.g-1 {
+  gap: 1rem;
+}
+
+.g-2 {
+  gap: 2rem;
+}
+
+.g-3{
+  gap: 3rem;
+}
+
+/* Width */
+
+.w-25 {
+width: 25%;
+}
+
+.w-33 {
+  width: calc(100% / 3);
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.w-75 {
+  width: 75%;
+}
+
+.w-100 {
+  width: 100%
+}
+
+
+/* Shapes and Icons */
 
 .chevron-bottom {
 	border-style: solid;
@@ -55,7 +229,6 @@
   height: 2px;
 }
 
-
 .change .bar1 {
   -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
   transform: rotate(-45deg) translate(-9px, 6px) ;
@@ -83,4 +256,18 @@
 
 .circle {
   border-radius: 50%;
+}
+
+/* General Styling */
+
+.relative {
+  position: relative;
+}
+
+.white-text {
+  color: whitesmoke;
+}
+
+.alternate-border-color {
+  border-color: #B6B6B8;
 }

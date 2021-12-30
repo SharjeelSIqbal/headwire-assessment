@@ -12,7 +12,7 @@ const GridCenter = ({ background }) => (
       </h4>
       <button className='grid-button white-text merriweather'>VIEW PROJECTS</button>
       <div className='grid-absolute-center-content'>
-        <svg className='text-svg background-new' viewBox='0 0 250 80' xmlns='http://www.w3.org/2000/svg'>
+        <svg className='text-svg background-new rubik' viewBox='0 0 250 80' xmlns='http://www.w3.org/2000/svg'>
           <text x='45' y='30' className='background-new'>
             {background}
           </text>
