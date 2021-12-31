@@ -1,4 +1,4 @@
-const GridCenter = ({ background }) => (
+const HeadCenter = ({ background }) => (
   <div className='grid-center column-center'>
     <div className='grid-center-container relative column-center'>
       <h1 className='grid-center-heading white-text titillium-light'>
@@ -23,4 +23,4 @@ const GridCenter = ({ background }) => (
   </div>
 )
 
-export default GridCenter
+export default HeadCenter

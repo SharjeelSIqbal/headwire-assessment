@@ -1,12 +1,11 @@
 .founder-section {
   padding: 3.25rem 0;
-  z-index: -3;
   background-color: #1A1A1A;
 }
 
 .founder-container {
-  max-width: 65%;
-  z-index: 3;
+  max-width: 950px;
+  z-index: 1;
 }
 
 .founder-quote {
@@ -24,14 +23,9 @@
   position: absolute;
   width: 150px;
   height: 100px;
-  bottom: -25px;
-  right: 100px;
-  letter-spacing: .2rem;
-  font-size: 90px;
+  top: -13px;
+  right: -85px;
+  font-size: 80px;
   z-index: -1;
-  fill: #676767;
-}
-
-.founder-signature-svg {
-  overflow: visible;
+  color: #676767;
 }

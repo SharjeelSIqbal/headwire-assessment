@@ -1,0 +1,36 @@
+.about-us-card-container {
+  max-width: 75%;
+}
+
+.about-us-section {
+  margin: 4rem 0;
+}
+
+.icon-100 {
+  width: 65px;
+  height: 65px;
+}
+
+.about-us-card {
+  background-color: #F4F4F4;
+  width: 300px;
+}
+
+.about-card-context {
+  line-height: 1.5rem;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.read-more {
+  font-size: 10px;
+}
+
+.accolade-number {
+  font-size: 36px;
+  font-weight: 300;
+}
+
+.accolade {
+  font-size: 16px;
+}

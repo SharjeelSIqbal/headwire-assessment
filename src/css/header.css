@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&family=Mrs+Saint+Delafield&family=Raleway:wght@100;400&family=Roboto&family=Rubik:wght@900&family=Titillium+Web:wght@200;300&display=swap');
+
 
 body {
   margin: 0;
@@ -20,7 +20,7 @@ ul {
   padding: 0;
 }
 
-a {
+a{
   text-decoration: none;
 }
 
@@ -132,11 +132,6 @@ button {
   gap: 2.5rem;
 }
 
-.header-links:hover .chevron-bottom {
-  transform: rotate(-45deg);
-  transition: all .5s ease;
-}
-
 /* Grid Logo */
 
 .logo-text {
@@ -193,6 +188,9 @@ button {
   z-index: -1;
   width: 100%;
 }
+
+/* border color #676767 */
+
 
 .background-new {
   fill: transparent;

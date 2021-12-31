@@ -1,6 +1,6 @@
 
 
-const GridHeader = () =>  {
+const HeaderHead = () =>  {
  const headerLinks = [{
    heading:'HOME',
    path: '/'
@@ -44,4 +44,4 @@ const GridHeader = () =>  {
   )
 }
 
-export default GridHeader
+export default HeaderHead
