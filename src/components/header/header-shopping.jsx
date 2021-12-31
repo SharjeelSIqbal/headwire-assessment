@@ -1,7 +1,7 @@
 import { RiShoppingBag2Line } from 'react-icons/ri'
 import { AiOutlineSearch } from 'react-icons/ai'
 
-const GridShopping = () => (
+const HeaderShopping = () => (
   <div className="shopping row-center">
     <div className='cart'>
       <div>
@@ -17,4 +17,4 @@ const GridShopping = () => (
   </div>
 )
 
-export default GridShopping
+export default HeaderShopping

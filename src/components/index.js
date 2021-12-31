@@ -1,8 +1,9 @@
-import { default as Grid } from './grid'
+import { default as HeaderSection } from './header-section'
 import { default as Founder } from './founder'
-import { default as AboutUs } from './about-us'
+import { default as About } from './about'
+
 export {
-  AboutUs,
-  Grid,
+  About,
+  HeaderSection,
   Founder
 }

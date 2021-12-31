@@ -1,4 +1,4 @@
-const GridSidebar = () => {
+const HeaderSidebar = () => {
  const socialMedia = ['PINTEREST', 'TWITTER', 'FACEBOOK', 'INSTAGRAM']
  return (
   <div className='social-media'>
@@ -13,4 +13,4 @@ const GridSidebar = () => {
  )
 }
 
-export default GridSidebar
+export default HeaderSidebar

@@ -1,16 +1,16 @@
-import { GridSidebar, GridLogo, GridHeader, GridMenu, GridCenter } from './grid-layout'
+import { HeaderSidebar, HeaderLogo, HeaderHead, HeaderMenu, HeaderCenter } from './header'
 import { VscArrowRight, VscArrowLeft } from 'react-icons/vsc'
-
-const Grid = () => {
+import '../css/header.css'
+const HeaderSection = () => {
   const bgImg = ['/imgs/slider1-home1.jpeg', '/imgs/slider2-home1.jpeg', '/imgs/slider3-home1.jpeg']
 
   return (
     <div className='grid relative'>
-      <GridLogo />
-      <GridHeader />
-      <GridMenu />
-      <GridSidebar />
-      <GridCenter background='STUDIO' />
+      <HeaderLogo />
+      <HeaderHead />
+      <HeaderMenu />
+      <HeaderSidebar />
+      <HeaderCenter background='STUDIO' />
       <div className='nothing' />
       <div className='bottom' />
       <div className='next'>
@@ -28,4 +28,4 @@ const Grid = () => {
   )
 }
 
-export default Grid
+export default HeaderSection

@@ -1,7 +1,9 @@
-const BracketHeading = ({ children }) => (
-  <h5 className='bracket-heading titillium'>
-    [ {children} ]
-  </h5>
-)
+import clsx from 'clsx'
 
-export default BracketHeading
+const BracketHeading = ({ children, className }) => (
+  <h5 className={clsx(className, 'bracket-heading bold roboto')}>
+    {children}
+  </h5>
+);
+
+export default BracketHeading;
