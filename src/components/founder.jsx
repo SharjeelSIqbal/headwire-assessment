@@ -1,7 +1,7 @@
 import '../css/founder.css'
 
 const Founder = () => (
-  <div className='founder-section row-center'>
+  <div id='#founder' className='founder-section row-center'>
     <div className='founder-container flex g-3 white-text relative'>
       <h2 className='m-0 w-50 titillium founder-quote text-align-right'>
         "Even if you don't have a ready sketch of what you
@@ -14,13 +14,13 @@ const Founder = () => (
         </div>
         <div className='white-text column justify-center'>
           <h3 className='m-0 titillium'>David Oswald</h3>
-          <h5 className='titillium lighter m-0 pt-half relative'>FOUNDER OF COMPANY</h5>
+          <h5 className='titillium lighter m-0 pt-half relative'>
+            <span>FOUNDER OF COMPANY</span>
+            <div className='delafield founder-signature'>
+              Oswald
+            </div>
+          </h5>
         </div>
-        <svg className='delafield founder-signature' viewBox='0 0 250 80' xmlns='http://www.w3.org/2000/svg'>
-          <text x='10' y='60'>
-            Oswald
-          </text>
-        </svg>
       </div>
     </div>
   </div>

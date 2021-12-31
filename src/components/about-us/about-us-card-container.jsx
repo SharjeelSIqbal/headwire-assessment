@@ -16,7 +16,7 @@ const AboutUsCardContainer = () => {
   }]
 
 return (
-  <div className="about-us-card-container row-center g-1pt5 mtb-container">
+  <div className="row-center g-1pt5 mtb-container">
     {contents.map(content => <AboutUsCard content={content} />)}
   </div>
  )

@@ -13,6 +13,7 @@
 
 .about-us-card {
   background-color: #F4F4F4;
+  width: 300px;
 }
 
 .about-card-context {
@@ -26,12 +27,10 @@
 }
 
 .accolade-number {
-  font-size: 35px;
-  font-family: 'Titillium' sans-serif !important;
-  font-weight: 200;
-  letter-spacing: .10rem;
+  font-size: 36px;
+  font-weight: 300;
 }
 
 .accolade {
-  font-size: 14px;
+  font-size: 16px;
 }

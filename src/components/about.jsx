@@ -1,4 +1,4 @@
-import { BracketHeading, SectionHeading } from "./layout"
+import { BracketHeading, SectionSubHeading } from "./layout"
 import { AboutUsCardContainer } from "./about-us"
 import '../css/about-us.css';
 
@@ -18,15 +18,11 @@ const AboutUs = () => {
   }]
 
   return (
-    <div className='about-us-section'>
-      <div>
-        <div></div>
-        <div></div>
-      </div>
+    <div id='#about-us' className='about-us-section'>
       <div className='about-us-container column-center m-center'>
         <div className='column-center'>
-          <BracketHeading className='m-0'>[ OUR SERVICES ]</BracketHeading>
-          <SectionHeading>What Can We Offer</SectionHeading>
+          <BracketHeading> OUR SERVICES </BracketHeading>
+          <SectionSubHeading className='section-heading'>What Can We Offer</SectionSubHeading>
           <div className='border-dotted' />
         </div>
         <div className='row-center'>
@@ -35,8 +31,8 @@ const AboutUs = () => {
         <div className='row-center g-6 m-0'>
           {accolades.map(accolade => (
             <div className='column-center'>
-            <BracketHeading className='accolade-number'>[{accolade.bracket}]</BracketHeading>
-            <SectionHeading className='accolade m-0'>{accolade.achievement}</SectionHeading>
+            <BracketHeading className='accolade-number'>{accolade.bracket}</BracketHeading>
+            <SectionSubHeading className='accolade m-0 bold'>{accolade.achievement}</SectionSubHeading>
           </div>
             ))}
         </div>

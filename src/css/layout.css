@@ -55,7 +55,7 @@
 }
 
 .plr-3 {
-  padding: 0rem 3rem;
+  padding: 0rem 2.75rem;
 }
 
 .m-center {
@@ -162,6 +162,10 @@
 
 .g-6 {
   gap: 6rem;
+}
+
+.g-4 {
+  gap: 4rem;
 }
 
 .g-3 {
@@ -274,7 +278,6 @@ width: 25%;
 .bracket-heading {
   font-size: 11px;
   color: #A7A6A6;
-  letter-spacing: .1rem;
   opacity: .8;
 }
 
