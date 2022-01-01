@@ -19,8 +19,9 @@
   left: 0;
 }
 
-.job-title-font {
-  font-size: 18px;
+.job-title-size {
+  font-size: 13px;
+  letter-spacing: 1px;
 }
 
 

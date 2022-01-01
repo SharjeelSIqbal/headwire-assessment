@@ -53,6 +53,10 @@
   margin: 0;
 }
 
+.p-0 {
+  padding: 0;
+}
+
 .ptb-2 {
   padding: 2rem 0;
 }
@@ -63,6 +67,10 @@
 
 .m-center {
   margin: 0 auto;
+}
+
+.m-true-center {
+  margin: auto auto;
 }
 
 .pt-half {
@@ -149,6 +157,10 @@
 
 .justify-self-end {
   justify-self: end;
+}
+
+.g-pt25 {
+  gap: 0.25rem;
 }
 
 .g-1 {
@@ -263,6 +275,24 @@ width: 25%;
 
 .circle {
   border-radius: 50%;
+}
+
+.circle-transparent-active {
+  width: 20px;
+  height: 20px;
+  fill: transparent;
+  border: 1px solid black;
+}
+
+.circle-transparent-inactive {
+  width: 20px;
+  height: 20px;
+}
+
+.circle-center {
+  height: 4px;
+  width: 4px;
+  background-color: black;
 }
 
 /* General Styling */

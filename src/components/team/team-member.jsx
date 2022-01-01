@@ -12,7 +12,7 @@ const TeamMember = ({ member }) => {
               <h2 className='m-0'><AiOutlinePlus /></h2>
           </div>
           <div className='member-job-title row-center'>
-            <BracketHeading className='job-title-font white-text'> {member.job_title} </BracketHeading>
+            <BracketHeading className='roboto job-title-size white-text'> {member.job_title.toUpperCase()} </BracketHeading>
           </div>
         </div>
         </div>
