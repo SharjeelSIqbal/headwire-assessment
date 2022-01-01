@@ -280,13 +280,14 @@ width: 25%;
 .circle-transparent-active {
   width: 20px;
   height: 20px;
-  fill: transparent;
+  background-color: transparent;
   border: 1px solid black;
 }
 
 .circle-transparent-inactive {
   width: 20px;
   height: 20px;
+  border: none;
 }
 
 .circle-center {
