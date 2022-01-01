@@ -1,18 +1,17 @@
 import '../css/team.css'
 import { BracketHeading, SectionSubHeading } from './layout'
+import { TeamContainer } from './team'
 
 const MeetOurTeam  = () => {
   return (
-    <div id='team' className='team-section'>
-      <div className='column-center m-0-auto '>
+    <div id='team' className='team-section ptb-2'>
+      <div className='column-center'>
         <div className='column-center'>
           <BracketHeading> OUR PROFESSIONALS </BracketHeading>
           <SectionSubHeading>Meet Our Skilled Team</SectionSubHeading>
           <div className="border-dotted" />
         </div>
-        <div className='team-container'>
-
-        </div>
+        <TeamContainer />
       </div>
     </div>
   )

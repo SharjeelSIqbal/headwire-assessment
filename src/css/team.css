@@ -1,4 +1,52 @@
 .team-section {
   background-color: #F4F4F4;
-  padding: 3rem 0;
+  padding: 4rem 0;
+}
+
+.member-info {
+  position: absolute;
+  top: 0;
+  bottom: 3px;
+  right: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.member-job-title {
+  position: absolute;
+  bottom: 20px;
+  right: 0;
+  left: 0;
+}
+
+.job-title-font {
+  font-size: 18px;
+}
+
+
+.member-div.member-img {
+  object-fit: fill;
+}
+
+
+.grayscale {
+  transition: filter .5s ease-in;
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
+
+.additional-info {
+  transition: opacity .5s ease;
+  opacity: 0;
+}
+
+.member-div:hover .additional-info {
+  transition: opacity .5s ease-out;
+  opacity: 1;
+}
+
+.member-div:hover  .grayscale {
+  transition: filter .5s ease-out;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
