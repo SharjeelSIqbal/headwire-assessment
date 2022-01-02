@@ -62,7 +62,7 @@
   line-height: 1.5;
 }
 
-/* Margin and Padding */
+/* Margin */
 
 .m-0 {
   margin: 0;
@@ -120,7 +120,7 @@
   padding: 1rem;
 }
 
-.pt-half {
+.pt-pt5 {
   padding-top: .5rem;
 }
 
