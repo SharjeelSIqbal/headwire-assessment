@@ -5,7 +5,7 @@ const AboutUsCard = ({ content }) => (
 
         <h4 className='mb-pt5'>{content.heading}</h4>
         <p className='raleway text-align-center about-card-context '>{content.context}</p>
-        <a className='about-us-read-more bold'>READ MORE</a>
+        <a className='about-us-read-more bold uppercase'>Read more</a>
     </div>
   </div>
 )

@@ -5,23 +5,23 @@ import '../css/about-us.css';
 const AboutUs = () => {
   const accolades = [{
     bracket: '180+',
-    achievement: 'CURRENT CLIENTS'
+    achievement: 'Current Clients'
   }, {
     bracket: '10+',
-    achievement: 'YEARS OF EXPERIENCE'
+    achievement: 'Years of Experience'
   }, {
     bracket: '35+',
-    achievement: 'AWARDS WINNING'
+    achievement: 'Awards Winning'
   }, {
     bracket: '5+',
-    achievement: 'OFFICES WORLDWIDE'
+    achievement: 'Offices Worldwide'
   }]
 
   return (
     <div id='#about-us' className='ptb-4'>
       <div className='w-container column-center m-center'>
         <div className='column-center'>
-          <BracketHeading> OUR SERVICES </BracketHeading>
+          <BracketHeading className='uppercase'> Our Services </BracketHeading>
           <SectionSubHeading className='section-heading'>What Can We Offer</SectionSubHeading>
           <div className='border-dotted' />
         </div>
@@ -32,7 +32,7 @@ const AboutUs = () => {
           {accolades.map(accolade => (
             <div className='column-center'>
             <BracketHeading className='about-us-accolade-number'>{accolade.bracket}</BracketHeading>
-            <SectionSubHeading className='about-us-accolade m-0 bold'>{accolade.achievement}</SectionSubHeading>
+            <SectionSubHeading className='about-us-accolade m-0 bold uppercase'>{accolade.achievement}</SectionSubHeading>
           </div>
             ))}
         </div>
