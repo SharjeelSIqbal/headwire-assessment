@@ -47,7 +47,6 @@
   color: whitesmoke;
 }
 
-
 /* Text Styling */
 
 .text-align-right {
@@ -60,6 +59,10 @@
 
 .line-1pt5 {
   line-height: 1.5;
+}
+
+.uppercase {
+  text-transform: uppercase;
 }
 
 /* Margin */

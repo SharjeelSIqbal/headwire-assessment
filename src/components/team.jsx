@@ -4,7 +4,7 @@ import { TeamContainer } from './team-section'
 
 const MeetOurTeam  = () => {
   return (
-    <div id='team' className='team-section ptb-2'>
+    <div id='team' className='team-section ptb-4'>
       <div className='column-center g-3'>
         <div className='column-center'>
           <BracketHeading> OUR PROFESSIONALS </BracketHeading>
