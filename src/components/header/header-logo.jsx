@@ -1,7 +1,7 @@
 const HeaderLogo = () => (
-  <div className='logo'>
+  <div className='header-logo'>
     <img src="/imgs/logo-half.svg" alt="logo" />
-    <img src="/imgs/logo-text.svg" className='logo-text' alt="company name" />
+    <img src="/imgs/logo-text.svg" className='header-logo-text' alt="company name" />
   </div>
 )
 

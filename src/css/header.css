@@ -59,10 +59,7 @@ button {
 }
 
 
-.logo {
-  grid-area: logo;
-  background-color: white;
-}
+
 
 .header {
   grid-area: header;
@@ -132,13 +129,18 @@ button {
   gap: 2.5rem;
 }
 
-/* Grid Logo */
+/* Logo */
 
-.logo-text {
+.header-logo-text {
   width: 200px;
   position: absolute;
   top: 0;
   left: 0;
+}
+
+.header-logo {
+  grid-area: logo;
+  background-color: white;
 }
 
 /* Grid Center */

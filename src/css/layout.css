@@ -48,6 +48,19 @@
 }
 
 
+/* Text Styling */
+
+.text-align-right {
+  text-align: right;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.line-1pt5 {
+  line-height: 1.5;
+}
 
 /* Margin and Padding */
 
@@ -55,21 +68,6 @@
   margin: 0;
 }
 
-.p-0 {
-  padding: 0;
-}
-
-.ptb-2 {
-  padding: 2rem 0;
-}
-
-.plr-3 {
-  padding: 0rem 2.75rem;
-}
-
-.p-1 {
-  padding: 1rem;
-}
 .m-center {
   margin: 0 auto;
 }
@@ -78,16 +76,16 @@
   margin: auto auto;
 }
 
-.pt-half {
-  padding-top: .5rem;
-}
-
 .mt-pt5 {
   margin-top: .5rem;
 }
 
 .mb-pt5 {
   margin-bottom: .5rem;
+}
+
+.mb-0{
+  margin-bottom: 0;
 }
 
 .mb-1 {
@@ -102,29 +100,50 @@
   margin: 1rem;
 }
 
+
+.mtb-2{
+  margin: 2rem 0;
+}
+
+
 .mtb-container {
   margin: 3rem 0 5rem;
 }
 
-.mtb-2{
-  margin: 2rem 0;
+/* Padding  */
+
+.p-0 {
+  padding: 0;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.pt-half {
+  padding-top: .5rem;
+}
+
+.ptb-1 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.ptb-2 {
+  padding: 2rem 0;
+}
+
+.plr-3 {
+  padding: 0rem 2.75rem;
 }
 
 .ptb-4 {
   padding: 4rem 0;
 }
 
-
-
 /* General Styling */
 
-.text-align-right {
-  text-align: right;
-}
 
-.text-align-center {
-  text-align: center;
-}
 
 /* Flex */
 
@@ -141,8 +160,6 @@
   align-items: center;
 }
 
-/* Single Flex Properties */
-
 .flex {
   display: flex;
 }
@@ -157,10 +174,6 @@
 
 .space-between{
   justify-content: space-between;
-}
-
-.space-evenly {
-  justify-content: space-evenly;
 }
 
 .column {
@@ -180,29 +193,34 @@
   gap: 0.25rem;
 }
 
-.g-1 {
-  gap: 1rem;
+.g-pt5 {
+  gap: .5rem;
 }
 
-.g-2 {
-  gap: 2rem;
+.g-1 {
+  gap: 1rem;
 }
 
 .g-1pt5{
   gap: 1.5rem;
 }
 
-.g-6 {
-  gap: 6rem;
+.g-2 {
+  gap: 2rem;
+}
+
+.g-3 {
+  gap: 3rem;
 }
 
 .g-4 {
   gap: 4rem;
 }
 
-.g-3 {
-  gap: 3rem;
+.g-6 {
+  gap: 6rem;
 }
+
 
 /* Width */
 
@@ -233,7 +251,6 @@ width: 25%;
 .w-container {
    max-width: 65%;
 }
-
 
 /* Shapes and Icons */
 
@@ -317,19 +334,20 @@ width: 25%;
   background-color: black;
 }
 
+.circle-links {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: transparent;
+  border: 1px solid #B6B6B8;
+}
+
 /* General Styling */
 
 .relative {
   position: relative;
 }
 
-
-.alternate-border-color {
-  border-color: #B6B6B8;
-}
-
-
-/* heading */
+/* Heading */
 
 .bracket-heading {
   font-size: 11px;

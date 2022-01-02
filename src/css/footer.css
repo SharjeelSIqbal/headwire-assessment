@@ -1,0 +1,67 @@
+.footer-background {
+  background-color: #1A1A1A;
+}
+
+.footer-logo {
+  width: 125px;
+}
+
+.footer-media-logo {
+  font-size: 12px;
+}
+
+.footer-content {
+  font-size: 14px;
+}
+
+.footer-section p {
+  margin: 0;
+}
+
+.footer-heading {
+  color: whitesmoke;
+  margin: 0 0 1.5rem
+}
+
+.footer-icon {
+font-size: 15px;
+}
+
+
+.footer-input {
+  background-color: transparent;
+  border: none;
+  padding: 0 .5rem .5rem;
+  margin-bottom: .1rem;
+  border-bottom: 1px solid #676767;
+  color: whitesmoke;
+  outline: none;
+}
+
+.footer-subscribe {
+  font-size: 12px;
+  line-height: 1.2rem;
+}
+
+.footer-send{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: -15px;
+  background-color: transparent;
+}
+
+
+.footer-subscribe-icon {
+  fill: transparent;
+  outline: whitesmoke;
+  font-size: 12px;
+}
+
+.footer-copyright {
+  border-top: 1px solid #676767;
+}
+
+.footer-copyright-content {
+  font-size: 13px;
+}
