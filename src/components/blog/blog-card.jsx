@@ -1,11 +1,33 @@
-const BlogCard = ({ img, imgAlt, date, author, heading, content, designStyle}) => (
-  <div className='blog-card column-center plr-2'>
-    <div className='relative'>
-      <img className='blog-image' src={img} alt={imgAlt} />
-      <div className='blog-design-style'>{designStyle}</div>
+const BlogCard = ({ post}) => (
+  <div className='blog-card'>
+    <div className='column-center m-1'>
+    <div className='blog-img  mb-1 relative '>
+      <img className='w-100 relative' src={post.img} alt={post.imgAlt} />
+      <div className='blog-design-style row-center bold white-text roboto'>
+        <p className='m-0'>{post.designStyle}</p>
+      </div>
     </div>
-    <div></div>
-
+    <div className='w-100 flex blog-cite m-0'>
+      <h5 className='m-0 flex align-center g-1 titillium'>
+        <span>{post.date}</span>
+        <div className='flex'>
+          <div className='blog-circle' />
+          <div className='blog-circle' />
+        </div>
+        <span> {post.author}</span>
+      </h5>
+    </div>
+    <div className='titillium'>
+        <a>
+        <h3>{post.title}</h3>
+        </a>
+    </div>
+    <div className='w-100 titillium'>
+      <p className='m-0 w-100 blog-content'>
+        {post.content}
+      </p>
+    </div>
+    </div>
   </div>
 )
 

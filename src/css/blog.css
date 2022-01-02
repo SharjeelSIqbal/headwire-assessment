@@ -1,14 +1,81 @@
-.blog-section {
-
-
-}
-
-
 .blog-button {
-  height: 4.25rem;
-  width: 150px;
-  font-size: 14px;
+  height: 3.15rem;
+  width: 125px;
+  font-size: 11px;
   font-weight: bold;
   background-color: #1A1A1A;
   color: whitesmoke;
+  text-transform: uppercase;
+}
+
+.blog-button-line-horizontal {
+  position: absolute;
+  height: 1px;
+  width: 125px;
+  bottom: -5px;
+  left: 10px;
+  border-bottom: 1px solid #1A1A1A;
+  transition: left .5s linear;
+}
+
+
+
+.blog-button-line-vertical {
+  position: absolute;
+  height: 3.15rem;
+  width: 1px;
+  border-right: 1px solid #1A1A1A;
+  right: -5px;
+  top: 10px;
+  transition: top .5s linear;
+}
+
+.blog-button:hover .blog-button-line-vertical {
+  transition: top .5s linear;
+  top: 0;
+}
+
+.blog-button:hover .blog-button-line-horizontal {
+  transition: left .5s linear;
+  left: 0;
+}
+
+
+.blog-card {
+  border: 1px solid #B6B6B8;
+  width: 32%;
+}
+
+
+.blog-design-style {
+  padding: .35rem;
+  position: absolute;
+  bottom: 3px;
+  left: 0;
+  text-transform: uppercase;
+  background-color: black;
+  font-size: 9px;
+}
+
+
+.blog-content {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+
+.blog-cite {
+  text-transform: uppercase;
+  color:rgba(0, 0, 0, 0.5);
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.blog-circle {
+  border-radius: 50%;
+  width: 4px;
+  height: 4px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-right: 3px;
 }
