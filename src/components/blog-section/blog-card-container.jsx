@@ -30,7 +30,7 @@ const BlogCardContainer = () => {
 
   return (
     <div className="flex align-center space-between w-100 mtb-2">
-      {blogs.map(post => <BlogCard post={post} />)}
+      {blogs.map(post => <BlogCard key={post.title}post={post} />)}
     </div>
   )
 

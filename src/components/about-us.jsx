@@ -30,10 +30,10 @@ const AboutUs = () => {
         </div>
         <div className='row-center g-6 m-0'>
           {accolades.map(accolade => (
-            <div className='column-center'>
-            <BracketHeading className='about-us-accolade-number'>{accolade.bracket}</BracketHeading>
-            <SectionSubHeading className='about-us-accolade m-0 bold uppercase'>{accolade.achievement}</SectionSubHeading>
-          </div>
+            <div className='column-center' key={accolade.achievement}>
+              <BracketHeading className='about-us-accolade-number'>{accolade.bracket}</BracketHeading>
+              <SectionSubHeading className='about-us-accolade m-0 bold uppercase'>{accolade.achievement}</SectionSubHeading>
+            </div>
             ))}
         </div>
       </div>

@@ -17,7 +17,7 @@ const AboutUsCardContainer = () => {
 
 return (
   <div className="row-center g-1pt5 mtb-container">
-    {contents.map(content => <AboutUsCard content={content} />)}
+    {contents.map(content => <AboutUsCard key={content.heading} content={content} />)}
   </div>
  )
 }
