@@ -55,21 +55,6 @@
   margin: 0;
 }
 
-.p-0 {
-  padding: 0;
-}
-
-.ptb-2 {
-  padding: 2rem 0;
-}
-
-.plr-3 {
-  padding: 0rem 2.75rem;
-}
-
-.p-1 {
-  padding: 1rem;
-}
 .m-center {
   margin: 0 auto;
 }
@@ -112,6 +97,30 @@
 
 .mtb-2{
   margin: 2rem 0;
+}
+
+
+/* Padding  */
+
+.p-0 {
+  padding: 0;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.ptb-1 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.ptb-2 {
+  padding: 2rem 0;
+}
+
+.plr-3 {
+  padding: 0rem 2.75rem;
 }
 
 .ptb-4 {
