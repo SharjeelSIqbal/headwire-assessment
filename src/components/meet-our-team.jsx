@@ -8,7 +8,7 @@ const MeetOurTeam  = () => {
       <div className='column-center g-3'>
         <div className='column-center'>
           <BracketHeading> OUR PROFESSIONALS </BracketHeading>
-          <SectionSubHeading>Meet Our Skilled Team</SectionSubHeading>
+          <SectionSubHeading className='section-heading'>Meet Our Skilled Team</SectionSubHeading>
           <div className="border-dotted" />
         </div>
         <TeamContainer />

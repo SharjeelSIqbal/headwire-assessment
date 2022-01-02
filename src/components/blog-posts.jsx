@@ -8,7 +8,7 @@ const Blog = () => (
       <div className="flex space-between align-center">
         <div className='column'>
           <BracketHeading> OUR BLOG </BracketHeading>
-          <SectionSubHeading className='medium'>Read Our Latest News</SectionSubHeading>
+          <SectionSubHeading className='section-heading'>Read Our Latest News</SectionSubHeading>
           <div className='border-dotted' />
         </div>
         <button className='blog-button relative'>

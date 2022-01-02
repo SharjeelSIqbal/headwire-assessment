@@ -39,10 +39,6 @@
   font-weight: lighter;
 }
 
-.medium {
-  font-weight: normal;
-}
-
 .gray-text {
   color: #A7A6A6;
 }
@@ -50,6 +46,8 @@
 .white-text {
   color: whitesmoke;
 }
+
+
 
 /* Margin and Padding */
 
@@ -335,6 +333,7 @@ width: 25%;
 }
 
 .section-heading {
+  font-size: 34px;
   font-weight: 400;
 }
 
