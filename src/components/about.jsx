@@ -18,8 +18,8 @@ const AboutUs = () => {
   }]
 
   return (
-    <div id='#about-us' className='about-us-section'>
-      <div className='about-us-container column-center m-center'>
+    <div id='#about-us' className='ptb-4'>
+      <div className='w-container column-center m-center'>
         <div className='column-center'>
           <BracketHeading> OUR SERVICES </BracketHeading>
           <SectionSubHeading className='section-heading'>What Can We Offer</SectionSubHeading>

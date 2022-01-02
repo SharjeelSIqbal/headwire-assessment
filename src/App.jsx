@@ -1,4 +1,4 @@
-import {  Founder, About, HeaderSection, MeetOurTeam } from './components'
+import {  Founder, About, HeaderSection, MeetOurTeam, BlogPosts } from './components'
 
 const App = () => (
   <>
@@ -6,6 +6,7 @@ const App = () => (
     <Founder />
     <About />
     <MeetOurTeam />
+    <BlogPosts />
   </>
   )
 
