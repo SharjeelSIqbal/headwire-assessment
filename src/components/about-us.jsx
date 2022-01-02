@@ -1,5 +1,5 @@
-import { BracketHeading, SectionSubHeading } from "./layout"
-import { AboutUsCardContainer } from "./about-us"
+import { BracketHeading, SectionSubHeading } from './layout'
+import { AboutUsCardContainer } from './about-us-section'
 import '../css/about-us.css';
 
 const AboutUs = () => {

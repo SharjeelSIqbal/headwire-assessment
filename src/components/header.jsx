@@ -1,4 +1,4 @@
-import { HeaderSidebar, HeaderLogo, HeaderHead, HeaderMenu, HeaderCenter } from './header'
+import { HeaderSidebar, HeaderLogo, HeaderHead, HeaderMenu, HeaderCenter } from './header-section'
 import { VscArrowRight, VscArrowLeft } from 'react-icons/vsc'
 import '../css/header.css'
 const HeaderSection = () => {

@@ -1,5 +1,3 @@
-
-
 const HeaderHead = () =>  {
  const headerLinks = [{
    heading:'HOME',

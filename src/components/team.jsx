@@ -1,6 +1,6 @@
 import '../css/team.css'
 import { BracketHeading, SectionSubHeading } from './layout'
-import { TeamContainer } from './team'
+import { TeamContainer } from './team-section'
 
 const MeetOurTeam  = () => {
   return (

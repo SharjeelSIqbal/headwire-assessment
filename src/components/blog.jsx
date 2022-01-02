@@ -1,5 +1,5 @@
 import '../css/blog.css'
-import { BlogCardContainer } from './blog'
+import { BlogCardContainer } from './blog-section'
 import { BracketHeading, SectionSubHeading } from './layout'
 
 const Blog = () => (

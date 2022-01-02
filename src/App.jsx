@@ -1,12 +1,12 @@
-import {  Founder, About, HeaderSection, MeetOurTeam, BlogPosts, Footer } from './components'
+import {  Founder, AboutUs, Header, Team, Blog, Footer } from './components'
 
 const App = () => (
   <>
-    <HeaderSection />
+    <Header />
     <Founder />
-    <About />
-    <MeetOurTeam />
-    <BlogPosts />
+    <AboutUs />
+    <Team />
+    <Blog />
     <Footer />
   </>
   )
