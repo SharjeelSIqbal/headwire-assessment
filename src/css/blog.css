@@ -15,7 +15,7 @@
   bottom: -5px;
   left: 10px;
   border-bottom: 1px solid #1A1A1A;
-  transition: left .5s linear;
+  transition: left .25s linear;
 }
 
 
@@ -27,16 +27,16 @@
   border-right: 1px solid #1A1A1A;
   right: -5px;
   top: 10px;
-  transition: top .5s linear;
+  transition: top .25s linear;
 }
 
 .blog-button:hover .blog-button-line-vertical {
-  transition: top .5s linear;
+  transition: top .25s linear;
   top: 0;
 }
 
 .blog-button:hover .blog-button-line-horizontal {
-  transition: left .5s linear;
+  transition: left .25s linear;
   left: 0;
 }
 

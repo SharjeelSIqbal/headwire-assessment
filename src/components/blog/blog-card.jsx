@@ -18,9 +18,9 @@ const BlogCard = ({ post}) => (
       </h5>
     </div>
     <div className='titillium'>
-        <a>
-        <h3>{post.title}</h3>
-        </a>
+      <a>
+        <h3 className='mt-1 mb-1'>{post.title}</h3>
+      </a>
     </div>
     <div className='w-100 titillium'>
       <p className='m-0 w-100 blog-content'>
