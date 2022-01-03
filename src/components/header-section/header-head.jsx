@@ -60,7 +60,7 @@ const HeaderHead = () =>  {
                 <li key={link.heading} onClick={(e) => handleClick(e, link.heading)} className='header-links row-center relative'>
                   <a className='white-text' href={link.path}>{link.heading}<span className='chevron-bottom'></span></a>
                   {window.location.pathname === link.path && <div className="triangle" />}
-                  <HeaderDropDown dropDownList={link.dropDownList} heading={link.heading} isActive={true} />
+                  <HeaderDropDown dropDownList={link.dropDownList} heading={link.heading} />
                 </li>
                   )}
             return (
