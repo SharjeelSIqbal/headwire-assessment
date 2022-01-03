@@ -233,7 +233,7 @@
   max-width: 300px;
   background-color: #2A2A2A;
   position: absolute;
-  transition: transform .2s;
+  transition: transform;
   transition-delay: .5s;
   top: 90px;
   left: -20px;
