@@ -98,6 +98,14 @@ button {
    grid-area: header-bottom;
 }
 
+.header-logo {
+  grid-area: header-logo;
+  position: absolute;
+  width: 198px;
+  top: 0;
+  left: 0;
+}
+
 
 /* Grid Links */
 

@@ -1,8 +1,8 @@
 const HeaderSidebar = () => {
- const socialMedia = ['PINTEREST', 'TWITTER', 'FACEBOOK', 'INSTAGRAM']
+ const socialMedia = ['pinterest', 'twitter', 'facebook', 'instagram']
  return (
   <div className='header-social-media'>
-    <ul className='header-links-side-bar column-center'>
+    <ul className='header-links-side-bar column-center uppercase'>
        {socialMedia.map(link => (
        <li key={link} className='header-side-link-text white-text'>
          <a>{link}</a>

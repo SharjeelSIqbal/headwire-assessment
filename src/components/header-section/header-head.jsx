@@ -1,39 +1,20 @@
 const HeaderHead = () =>  {
- const headerLinks = [{
-   heading:'HOME',
-   path: '/'
-  }, {
-    heading: 'PAGES',
-    path: '/pages'
-  },{
-    heading: 'SERVICES',
-    path: '/services'
-  }, {
-    heading: 'PORTFOLIO',
-    path: '/portfolio'
-  }, {
-    heading: 'BLOG',
-    path: '/blog'
-  }, {
-    heading: 'CONTACTS',
-    path: '/contacts'
-  }]
-
+ const headerLinks = ['home', 'pages', 'services', 'portfolio', 'blog', 'contacts']
  return (
     <div className='header relative row-center'>
-     <ul className='header-list row-center'>
+     <ul className='header-list row-center uppercase'>
        {headerLinks.map(link => {
-         if(link.heading !== 'CONTACTS') {
+         if(link !== 'contacts') {
           return (
-            <li key={link.path} className='header-head-links row-center relative'>
-              <a className='white-text' href={link.path}>{link.heading}<span className='chevron-bottom'></span></a>
-              {window.location.pathname === link.path && <div className="triangle" />}
+            <li key={link} className='header-head-links row-center relative'>
+              <a className='white-text' href={`/${link}`}>{link}<span className='chevron-bottom'></span></a>
+              {window.location.pathname === `/${link}` && <div className="triangle" />}
            </li>
              )}
              return (
-              <li key={link.path} className='header-head-links row-center relative'>
-                <a className='white-text' href={link.path}>{link.heading}</a>
-                 {window.location.pathname === link.path && <div className="triangle" />}
+              <li key={link} className='header-head-links row-center relative'>
+                <a className='white-text' href={`/${link}`}>{link}</a>
+                 {window.location.pathname === `/${link}` && <div className="triangle" />}
               </li>
              )}
          )}
