@@ -1,3 +1,5 @@
+import { HeaderDropDown } from "."
+
 const HeaderHead = () =>  {
  const headerLinks = ['home', 'pages', 'services', 'portfolio', 'blog', 'contacts']
  return (
@@ -19,6 +21,7 @@ const HeaderHead = () =>  {
              )}
          )}
     </ul>
+    <HeaderDropDown />
   </div>
   )
 }
