@@ -13,21 +13,28 @@ const HEADER_LINKS = [{
     'Home Fullscreen',
     'Home One Page',
     'Home with Slide Menu',
-  ]}, {
+  ],
+  path: '/'
+  }, {
   heading: 'pages',
   dropDownList: [],
+  path: '/pages',
   }, {
   heading: 'services',
   dropDownList: [],
+  path: '/services',
   }, {
   heading: 'portfolio',
   dropDownList: [],
+  path: '/portfolio',
   }, {
   heading: 'blog',
   dropDownList: [],
+  path: '/blog',
   }, {
   heading: 'contacts',
   dropDownList: [],
+  path: '/contacts',
 }]
 
 const HeaderHead = () =>  {
@@ -50,15 +57,15 @@ const HeaderHead = () =>  {
          if(link.heading !== 'contacts') {
           return (
             <li key={link.heading} onClick={(e) => handleClick(e, link.heading)} className='header-links row-center relative'>
-              <a className='white-text' href={`/${link.heading}`}>{link.heading}<span className='chevron-bottom'></span></a>
-              {window.location.pathname === `/${link.heading}` && <div className="triangle" />}
+              <a className='white-text' href={link.path}>{link.heading}<span className='chevron-bottom'></span></a>
+              {window.location.pathname === link.path && <div className="triangle" />}
               <HeaderDropDown dropDownList={link.dropDownList} isActive={link.heading === currentActiveDropDown} />
            </li>
              )}
              return (
               <li key={link.heading} className='header-links row-center relative'>
-                <a className='white-text' href={`/${link.heading}`}>{link.heading}</a>
-                 {window.location.pathname === `/${link.heading}` && <div className="triangle" />}
+                <a className='white-text' href={link.path}>{link.heading}</a>
+                 {window.location.pathname === link.path && <div className="triangle" />}
               </li>
              )}
          )}
