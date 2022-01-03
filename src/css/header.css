@@ -212,14 +212,22 @@
 
 /* Drop Down Menu */
 
-.header-drop-down {
+.header-links:hover .header-home-drop-down {
+  transform: scale(1);
+  transition: scale .2s ease-in;
+
+}
+
+.header-home-drop-down {
+  transform: scale(0);
   width: 250px;
   max-width: 300px;
   background-color: #2A2A2A;
   position: absolute;
+  transition: transform .2s;
+  transition-delay: .5s;
   top: 90px;
   left: -20px;
-  transition: height .5s ease-in;
   font-size: 14px;
   z-index: 2;
 }
