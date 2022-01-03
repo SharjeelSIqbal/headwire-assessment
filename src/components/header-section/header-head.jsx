@@ -25,13 +25,13 @@ const HeaderHead = () =>  {
        {headerLinks.map(link => {
          if(link.heading !== 'CONTACTS') {
           return (
-            <li key={link.path} className='header-links row-center relative'>
+            <li key={link.path} className='header-head-links row-center relative'>
               <a className='white-text' href={link.path}>{link.heading}<span className='chevron-bottom'></span></a>
               {window.location.pathname === link.path && <div className="triangle" />}
            </li>
              )}
              return (
-              <li key={link.path} className='header-links row-center relative'>
+              <li key={link.path} className='header-head-links row-center relative'>
                 <a className='white-text' href={link.path}>{link.heading}</a>
                  {window.location.pathname === link.path && <div className="triangle" />}
               </li>

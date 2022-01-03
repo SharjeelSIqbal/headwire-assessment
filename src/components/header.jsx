@@ -5,25 +5,25 @@ const HeaderSection = () => {
   const bgImg = ['/imgs/slider1-home1.jpeg', '/imgs/slider2-home1.jpeg', '/imgs/slider3-home1.jpeg']
 
   return (
-    <div id='header' className='grid relative'>
+    <div id='header' className='header-grid relative'>
       <HeaderLogo />
       <HeaderHead />
       <HeaderMenu />
       <HeaderSidebar />
       <HeaderCenter background='STUDIO' />
-      <div className='nothing' />
-      <div className='bottom' />
-      <div className='next'>
-        <button className='grid-carousel-button'>
+      <div className='header-nothing' />
+      <div className='header-bottom' />
+      <div className='header-next'>
+        <button className='header-carousel-button'>
           <VscArrowRight />
         </button>
       </div>
-      <div className='prev flex justify-end'>
-        <button className='grid-carousel-button grid-prev-button'>
+      <div className='header-prev flex justify-end'>
+        <button className='header-carousel-button header-prev-button'>
           <VscArrowLeft/>
         </button>
       </div>
-      <img src={bgImg[2]} alt="background" className='background-image'/>
+      <img src={bgImg[2]} alt="background" className='header-background-image'/>
     </div>
   )
 }

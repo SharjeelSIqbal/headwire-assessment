@@ -38,28 +38,23 @@ button {
   border: none;
 }
 
-/* General stylings */
-
 
 /* Grid Layout */
 
-.grid {
+.header-grid {
   display: grid;
   grid-template-columns: 100px 2.6fr 100px;
   grid-template-rows: 100px 2.6fr 100px;
   grid-template-areas:
-    "logo header menu"
-    "social-media grid-center nothing"
-    "bottom prev next";
+    "header-logo header header-menu"
+    "header-social-media header-center header-nothing"
+    "header-bottom header-prev header-next";
   height: 100vh;
   max-width: 100vw;
   max-height: ;
   overflow: hidden;
   z-index: 2;
 }
-
-
-
 
 .header {
   grid-area: header;
@@ -68,47 +63,47 @@ button {
   padding-left: 1rem;
 }
 
-.social-media {
-  grid-area: social-media;
+.header-social-media {
+  grid-area: header-social-media;
   border-top: 1px #676767 solid;
   border-bottom: 1px #676767 solid;
 }
 
-.grid-center {
+.header-center {
   border: 1px #676767 solid;
-  grid-area: grid-center;
+  grid-area: header-center;
 }
 
-.menu {
-  grid-area: menu;
+.header-menu {
+  grid-area: header-menu;
 }
 
-.nothing {
+.header-nothing {
   border-top: 1px #676767 solid;
   border-bottom: 1px #676767 solid;
-  grid-area: nothing;
+  grid-area: header-nothing;
 }
 
-.next {
-  grid-area: next;
+.header-next {
+  grid-area: header-next;
 }
 
-.prev {
+.header-prev {
   border-right: 1px #676767 solid;
   border-left: 1px #676767 solid;
-  grid-area: prev;
+  grid-area: header-prev;
 }
 
-.bottom {
-   grid-area: bottom;
-  }
+.header-bottom {
+   grid-area: header-bottom;
+}
 
 
 /* Grid Links */
 
-.header-links,
-.links-side-bar,
-.links {
+.header-head-links,
+.header-links-side-bar,
+.header-links {
   gap: 2rem;
   padding: 0;
   font-weight: bold;
@@ -116,40 +111,27 @@ button {
   height: 100%;
 }
 
-.side-link-text {
+.header-side-link-text {
   transform: rotate(180deg);
   writing-mode: vertical-lr;
   text-orientation: mixed;
 }
 
 
-/* Grid Header */
+/* Head */
+
 .header-list {
   height: 100%;
   gap: 2.5rem;
 }
 
-/* Logo */
+/* Center */
 
-.header-logo-text {
-  width: 200px;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.header-logo {
-  grid-area: logo;
-  background-color: white;
-}
-
-/* Grid Center */
-
-.grid-center-container {
+.header-center-container {
   max-width: 60%;
 }
 
-.grid-center-content {
+.header-center-content {
   text-align: center;
   line-height: 2rem;
   font-size: 15px;
@@ -158,7 +140,7 @@ button {
 
 }
 
-.grid-button {
+.header-button {
   height: 4.25rem;
   border: none;
   width: 190px;
@@ -169,21 +151,21 @@ button {
   transition: all .3s ease-out;
 }
 
-.grid-button:hover {
+.header-button:hover {
   transition: all .3s ease-in;
   background-color: whitesmoke;
   color: #1A1A1A;
 }
 
-.grid-center-heading {
+.header-center-heading {
   margin: 5rem 0 0;
   font-size: 4.25rem;
   font-weight: 400;
 }
 
-/* Grid Center Text SVG */
+/* Center Text SVG */
 
-.grid-absolute-center-content{
+.header-absolute-center-content{
   position: absolute;
   top: 30%;
   right: 35%;
@@ -191,10 +173,7 @@ button {
   width: 100%;
 }
 
-/* border color #676767 */
-
-
-.background-new {
+.header-background-new {
   fill: transparent;
   font-size: 72px;
   stroke: #676767;
@@ -203,13 +182,13 @@ button {
   stroke-width: 0.2;
 }
 
-.text-svg {
+.header-text-svg {
   overflow: visible;
 }
 
-/* Grid Carousel */
+/* Carousel */
 
-.grid-carousel-button {
+.header-carousel-button {
   border: none;
   height: 100%;
   width: 100px;
@@ -218,7 +197,7 @@ button {
   background-color: transparent;
 }
 
-.background-image {
+.header-background-image {
   position: absolute;
   top: 0;
   z-index: -2;
@@ -229,7 +208,7 @@ button {
 
 /* Menu */
 
-.shopping {
+.header-shopping {
   font-size: 32px;
   color: whitesmoke;
   position: absolute;
@@ -238,7 +217,7 @@ button {
   bottom: 25%;
 }
 
-.shopping-bag {
+.header-shopping-bag {
   position: absolute;
   left: -8px;
   top: 20px;
@@ -249,7 +228,7 @@ button {
   color: whitesmoke;
 }
 
-.grid-search:active,
-.cart:active {
+.header-grid-search:active,
+.header-cart:active {
   transform: translateY(3px);
 }
