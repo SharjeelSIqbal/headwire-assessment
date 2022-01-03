@@ -1,8 +1,11 @@
 const HeadCenter = ({ background }) => (
   <div className='header-center column-center'>
-    <div className='header-center-container relative column-center'>
-      <h1 className='header-center-heading white-text titillium-light'>
-        Best Furniture and Decor
+    <div className='header-center-container column-center'>
+      <h1 className='header-center-heading relative white-text titillium-light'>
+        <span>Best Furniture and Decor</span>
+        <div className='header-absolute-center-content'>
+          <h1 className='header-background-new rubik m-0 uppercase'>{background.text}</h1>
+        </div>
       </h1>
       <h4 className='header-center-content white-text raleway'>
         We pride ourselves on being builders &mdash; creating
@@ -11,15 +14,8 @@ const HeadCenter = ({ background }) => (
         work with us?
       </h4>
       <button className='header-button white-text merriweather uppercase'>View Projects</button>
-      <div className='header-absolute-center-content'>
-        <svg className='header-text-svg header-background-new rubik uppercase' viewBox='0 0 250 80' xmlns='http://www.w3.org/2000/svg'>
-          <text x='45' y='30' className='background-new'>
-            {background}
-          </text>
-        </svg>
-      </div>
     </div>
-
+    <img src={background.img} alt="background" className='header-background-image' />
   </div>
 )
 

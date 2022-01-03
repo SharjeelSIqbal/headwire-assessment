@@ -1,12 +1,9 @@
 import { HeaderShopping } from '.'
+import { RiMenuLine } from 'react-icons/ri'
 
 const HeaderMenu = () => (
-  <div className='header-menu relative row-center'>
-    <div className='header-menu-container'>
-      <div className='bar1'></div>
-      <div className='bar2'></div>
-      <div className='bar3'></div>
-    </div>
+  <div className='header-menu relative row-center white-text'>
+    <RiMenuLine />
     <HeaderShopping />
   </div>
 )
