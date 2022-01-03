@@ -1,5 +1,5 @@
 import {  Founder, AboutUs, Header, Team, Blog, Footer } from './components'
-import { ScrollToTop } from './components/layout';
+import { ScrollToTop } from './components/layout'
 
 const App = () => (
   <>
@@ -13,5 +13,4 @@ const App = () => (
   </>
   )
 
-
-export default App;
+export default App

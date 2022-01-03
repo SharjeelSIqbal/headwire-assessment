@@ -65,8 +65,8 @@
   text-transform: uppercase;
 }
 
-.text-transform-normal {
-  text-transform: none;
+.text-indent-30 {
+  text-indent: 30px;
 }
 
 /* Margin */
@@ -292,6 +292,10 @@ width: 25%;
   border-radius: 50%;
 }
 
+.circle-img {
+  overflow: hidden
+}
+
 .circle-transparent-active {
   width: 20px;
   height: 20px;
@@ -345,6 +349,10 @@ width: 25%;
   width: 50px;
   border-bottom: 1px dotted black;
   border-width: 2px;
+}
+
+.border-white {
+  border-color: whitesmoke;
 }
 
 /* Scroll to Top */
