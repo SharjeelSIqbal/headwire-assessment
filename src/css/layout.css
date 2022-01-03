@@ -144,9 +144,6 @@
   padding: 4rem 0;
 }
 
-/* General Styling */
-
-
 
 /* Flex */
 
@@ -335,4 +332,18 @@ width: 25%;
   width: 50px;
   border-bottom: 1px dotted black;
   border-width: 2px;
+}
+
+/* Scroll to Top */
+
+.scroll-to-top {
+  border: none;
+  background-color: #9F9D9E;
+  height: 40px;
+  width: 40px;
+  font-size: 25px;
+  color: whitesmoke;
+  position: fixed;
+  bottom: 56px;
+  right: 50px;
 }

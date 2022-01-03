@@ -48,3 +48,7 @@
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
 }
+
+.team-min-height {
+  min-height: 291px;
+}
