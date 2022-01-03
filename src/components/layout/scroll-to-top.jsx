@@ -1,0 +1,41 @@
+import React, { useEffect, useState } from 'react'
+import { AiOutlineArrowUp } from 'react-icons/ai'
+
+const ScrollToTop = () => {
+  const [isVisible, setIsVisible] = useState(false);
+
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  };
+
+  useEffect(() => {
+
+    const toggleVisibility = () => {
+      if (window.pageYOffset > 500) {
+        setIsVisible(true)
+      } else {
+        setIsVisible(false)
+      }
+    }
+
+    window.addEventListener('scroll', toggleVisibility)
+
+    return () => window.removeEventListener('scroll', toggleVisibility)
+  }, [])
+
+  if(!isVisible){
+    return null
+  }
+
+  return (
+    <button onClick={scrollToTop} className='scroll-to-top row-center'>
+      <AiOutlineArrowUp />
+    </button>
+  )
+}
+
+export default ScrollToTop

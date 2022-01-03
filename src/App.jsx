@@ -1,4 +1,5 @@
 import {  Founder, AboutUs, Header, Team, Blog, Footer } from './components'
+import { ScrollToTop } from './components/layout';
 
 const App = () => (
   <>
@@ -8,6 +9,7 @@ const App = () => (
     <Team />
     <Blog />
     <Footer />
+    <ScrollToTop />
   </>
   )
 

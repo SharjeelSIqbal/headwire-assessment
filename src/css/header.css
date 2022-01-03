@@ -70,8 +70,11 @@ button {
 }
 
 .header-center {
-  border: 1px #676767 solid;
   grid-area: header-center;
+}
+
+.header-center-border {
+  border: 1px #676767 solid;
 }
 
 .header-menu {
@@ -183,8 +186,9 @@ button {
 
 .header-absolute-center-content{
     position: absolute;
-    bottom: -53px;
-    left: -120px;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
     z-index: -1;
 }
 

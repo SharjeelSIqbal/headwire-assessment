@@ -2,35 +2,31 @@ import TeamMember from './team-member'
 import team from '../sample.json'
 import { useState } from 'react'
 import { TeamCarouselButton } from '../layout'
+import chunk from 'lodash.chunk'
+
+const PAGES = chunk(team, 5)
 
 const TeamContainer = () => {
-  const [ currentTeam, setCurrentTeam ] = useState(0)
-
-
-  const handleChange = (e) => {
-    if(e.target.value > team.length){
-      setCurrentTeam(team.length)
-    } else {
-      setCurrentTeam(parseInt(e.target.value))
-    }
-  }
-
+  const [ currentTeamIndex, setCurrentTeamIndex ] = useState(0)
 
   return (
     <div className="column-center w-100 team-container">
-      <div className='row-center'>
-        {team
-          .slice(currentTeam, currentTeam + 5)
-          .map((member, index) => <TeamMember key={`${member.first_name} ${member.last_name}`} member={member} />)
+      <div className='row-center team-min-height'>
+        {
+          PAGES[currentTeamIndex].map((member, index) => (
+            <TeamMember key={`${member.first_name} ${member.last_name}`} member={member} />
+          ))
         }
       </div>
       <div className='row-center g-pt5 mtb-2'>
-        {team.slice(0, Math.ceil(team.length / 5)).map((element, index) =>
-          <TeamCarouselButton key={index * 5} handleChange={handleChange} isActive={currentTeam === index * 5} currentTeam={index} />)
+        {
+          PAGES.map((_page, index) => (
+            <TeamCarouselButton key={index} handleChange={() => setCurrentTeamIndex(index)} isActive={currentTeamIndex === index} />
+          ))
         }
       </div>
     </div>
-    )
+  )
 }
 
 export default TeamContainer

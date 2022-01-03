@@ -1,10 +1,10 @@
-const HeadCenter = ({ background }) => (
-  <div className='header-center column-center'>
+const HeadCenter = ({ slide }) => (
+  <div className='header-center header-center-border column-center'>
     <div className='header-center-container column-center'>
       <h1 className='header-center-heading relative white-text titillium-light'>
-        <span>Best Furniture and Decor</span>
+        <span>{slide.heading}</span>
         <div className='header-absolute-center-content'>
-          <h1 className='header-background-new rubik m-0 uppercase'>{background.text}</h1>
+          <h1 className='header-background-new rubik m-0 uppercase'>{slide.text}</h1>
         </div>
       </h1>
       <h4 className='header-center-content white-text raleway'>
@@ -15,7 +15,7 @@ const HeadCenter = ({ background }) => (
       </h4>
       <button className='header-button white-text merriweather uppercase'>View Projects</button>
     </div>
-    <img src={background.img} alt="background" className='header-background-image' />
+    <img src={slide.img} alt="background" className='header-background-image' />
   </div>
 )
 
