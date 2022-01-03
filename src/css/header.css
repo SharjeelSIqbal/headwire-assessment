@@ -113,11 +113,10 @@
 }
 
 .header-button {
-  height: 4.25rem;
+  height: 4rem;
   border: none;
-  width: 190px;
-  font-size: 14px;
-  font-weight: bold;
+  width: 180px;
+  font-size: 13px;
   background-color: #1A1A1A;
   color: whitesmoke;
   transition: all .3s ease-out;
