@@ -64,7 +64,7 @@ const TeamMember = ({ member }) => {
           </div>
           <div className='row-center g-2'>
             <div className='circle w-50 circle-img'>
-              <img className='w-100' src={member.profile_picture} alt={member.first_name, member.last_name} />
+              <img className='w-100' src={member.profile_picture} alt={`${member.first_name}  ${member.last_name}`} />
             </div>
           </div>
           <div className='column g-pt5 white-text lighter titillium'>
