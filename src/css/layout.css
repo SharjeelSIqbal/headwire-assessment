@@ -108,9 +108,6 @@ button {
   text-transform: none;
 }
 
-.text-indent-30 {
-  text-indent: 30px;
-}
 
 /* Margin */
 
@@ -120,10 +117,6 @@ button {
 
 .m-center {
   margin: 0 auto;
-}
-
-.m-true-center {
-  margin: auto auto;
 }
 
 .mt-pt5 {
@@ -183,16 +176,16 @@ button {
   padding-bottom: 1rem;
 }
 
-.ptb-2 {
-  padding: 2rem 0;
-}
-
 .plr-3 {
   padding: 0rem 2.6rem;
 }
 
 .ptb-4 {
   padding: 4rem 0;
+}
+
+.ptb-5 {
+  padding: 5rem 0;
 }
 
 
@@ -236,13 +229,8 @@ button {
   justify-content: flex-end;
 }
 
-.justify-self-end {
-  justify-self: end;
-}
+/* Gap */
 
-.g-pt25 {
-  gap: 0.25rem;
-}
 
 .g-pt5 {
   gap: .5rem;
@@ -256,22 +244,13 @@ button {
   gap: 1.5rem;
 }
 
-.g-2 {
-  gap: 2rem;
-}
-
 .g-3 {
   gap: 3rem;
-}
-
-.g-4 {
-  gap: 4rem;
 }
 
 .g-6 {
   gap: 6rem;
 }
-
 
 /* Width */
 
@@ -338,6 +317,10 @@ width: 25%;
 
 .circle-img {
   overflow: hidden
+}
+
+.circle-img-profile {
+  transform: scale(1.025);
 }
 
 .circle-transparent-active {

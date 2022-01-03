@@ -1,7 +1,7 @@
 import '../css/founder.css'
 
 const Founder = () => (
-  <div id='#founder' className='founder-background ptb-4 row-center'>
+  <div id='#founder' className='founder-background ptb-5  row-center'>
     <div className='founder-z w-container flex g-3 white-text relative'>
       <h2 className='m-0 w-50 titillium founder-quote text-align-right'>
         "Even if you don't have a ready sketch of what you
