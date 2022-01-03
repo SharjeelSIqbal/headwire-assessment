@@ -13,25 +13,39 @@
 # Final Product 
 
 ## Top Component with Carousel
-https://user-images.githubusercontent.com/50930123/147946182-b4f9e2e5-9256-4986-9320-badc2fd60c71.mov
+
+
+https://user-images.githubusercontent.com/50930123/147947465-30766fb6-0a3c-4bd3-a746-e2ecedf10d97.mov
+
+
 
 ## Founder Component 
-![image](https://user-images.githubusercontent.com/50930123/147946296-928efeb7-4d92-48ec-8b13-7b4a27ff1dbd.png)
+![image](https://user-images.githubusercontent.com/50930123/147947518-2cfeabcd-a904-45c4-9a07-26abc7f6b5c6.png)
+
 
 ##Services Component 
-![image](https://user-images.githubusercontent.com/50930123/147946341-64065b83-8d75-4ce3-9b0e-a19c763ec24e.png)
+![image](https://user-images.githubusercontent.com/50930123/147947536-b51bee9a-2a2c-4df5-9181-f91ca3b9970a.png)
+
 
 ## Our Team Component 
-https://user-images.githubusercontent.com/50930123/147946513-4a4e6557-c94b-4882-9b06-f14434d335d0.mov
+https://user-images.githubusercontent.com/50930123/147947587-181d3dbb-44d5-4e62-b651-82c9477f32f0.mov
+
+
 
 ## Blog Component
-https://user-images.githubusercontent.com/50930123/147946561-c2c2db1b-1781-45f6-92b5-d4dde14fd9b2.mov
+https://user-images.githubusercontent.com/50930123/147947655-678806e3-8fb2-4fb1-88da-6a4356026784.mov
+
+
 
 ## Footer 
-![image](https://user-images.githubusercontent.com/50930123/147946620-d229ec05-dd9a-4daa-a107-bd9df1fa6547.png)
+![image](https://user-images.githubusercontent.com/50930123/147947705-37cb5b93-ba02-4747-a838-84c2185fe118.png)
+
 
 ## Scroll Up Component
-https://user-images.githubusercontent.com/50930123/147946802-3af298c2-af25-4a55-b16c-d36909729355.mov
+https://user-images.githubusercontent.com/50930123/147947786-07cfc869-4580-4508-9d4c-de6a4a2eb329.mov
+
+
+
 
 # Deployment 
 
