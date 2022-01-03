@@ -50,28 +50,29 @@ const HeaderHead = () =>  {
     }
   }
 
- return (
+  return (
     <div className='header relative row-center'>
-     <ul className='header-list row-center uppercase'>
-       {HEADER_LINKS.map(link => {
-         if(link.heading !== 'contacts') {
-          return (
-            <li key={link.heading} onClick={(e) => handleClick(e, link.heading)} className='header-links row-center relative'>
-              <a className='white-text' href={link.path}>{link.heading}<span className='chevron-bottom'></span></a>
-              {window.location.pathname === link.path && <div className="triangle" />}
-              <HeaderDropDown dropDownList={link.dropDownList} isActive={link.heading === currentActiveDropDown} />
-           </li>
-             )}
-             return (
-              <li key={link.heading} className='header-links row-center relative'>
-                <a className='white-text' href={link.path}>{link.heading}</a>
-                 {window.location.pathname === link.path && <div className="triangle" />}
-              </li>
-             )}
-         )}
-    </ul>
-
-  </div>
+      <ul className='header-list row-center uppercase'>
+        {
+          HEADER_LINKS.map(link => {
+            if (link.heading !== 'contacts') {
+              return (
+                <li key={link.heading} onClick={(e) => handleClick(e, link.heading)} className='header-links row-center relative'>
+                  <a className='white-text' href={link.path}>{link.heading}<span className='chevron-bottom'></span></a>
+                  {window.location.pathname === link.path && <div className="triangle" />}
+                  <HeaderDropDown dropDownList={link.dropDownList} isActive={link.heading === currentActiveDropDown} />
+                </li>
+                  )}
+            return (
+            <li key={link.heading} className='header-links row-center relative'>
+              <a className='white-text' href={link.path}>{link.heading}</a>
+                {window.location.pathname === link.path && <div className="triangle" />}
+            </li>
+            )}
+          )
+         }
+      </ul>
+    </div>
   )
 }
 

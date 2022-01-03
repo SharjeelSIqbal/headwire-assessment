@@ -4,7 +4,6 @@ import { AiOutlineArrowUp } from 'react-icons/ai'
 const ScrollToTop = () => {
   const [isVisible, setIsVisible] = useState(false);
 
-
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
@@ -13,7 +12,6 @@ const ScrollToTop = () => {
   };
 
   useEffect(() => {
-
     const toggleVisibility = () => {
       if (window.pageYOffset > 500) {
         setIsVisible(true)

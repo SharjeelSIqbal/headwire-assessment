@@ -3,7 +3,7 @@ import { AiOutlinePlus, AiOutlineClose } from 'react-icons/ai'
 import { useState } from 'react'
 import Modal from 'react-modal'
 
-const customStyles = {
+const CUSTOM_STYLES = {
   content: {
     top: '50%',
     left: '50%',
@@ -46,7 +46,7 @@ const TeamMember = ({ member }) => {
       </div>
       <Modal
         isOpen={isModalOpen}
-        style={customStyles}
+        style={CUSTOM_STYLES}
         onRequestClose={closeModal}
         contentLabel='Team Member Info Modal'
       >

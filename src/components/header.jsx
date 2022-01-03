@@ -19,6 +19,7 @@ const SLIDE = [{
 }]
 
 const Header = () => {
+
   const [ currentSlideIndex, setCurrentSlideIndex ] = useState(0)
 
   const currentSlide = SLIDE[currentSlideIndex]
@@ -44,7 +45,7 @@ const Header = () => {
 
     return () => clearTimeout(slideChangeTimeout)
     // eslint-disable-next-line
-  }, [ currentSlideIndex ])
+  }, [currentSlideIndex])
 
   return (
     <div id='header' className='header-grid relative'>

@@ -7,6 +7,7 @@ import chunk from 'lodash.chunk'
 const PAGES = chunk(team, 5)
 
 const TeamContainer = () => {
+
   const [ currentTeamIndex, setCurrentTeamIndex ] = useState(0)
 
   return (
