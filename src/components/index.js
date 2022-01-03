@@ -5,7 +5,6 @@ import { default as Team } from './team'
 import { default as Blog } from './blog'
 import { default as Footer } from './footer'
 
-
 export {
   AboutUs,
   Blog,

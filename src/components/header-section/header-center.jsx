@@ -13,7 +13,7 @@ const HeadCenter = ({ slide }) => (
         realize their visions and make them a reality. Wanna
         work with us?
       </h4>
-      <button className='header-button white-text merriweather uppercase'>View Projects</button>
+      <button className='header-button white-text merriweather uppercase bold'>View Projects</button>
     </div>
     <img src={slide.img} alt="background" className='header-background-image' />
   </div>

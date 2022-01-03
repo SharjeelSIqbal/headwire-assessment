@@ -1,6 +1,6 @@
+import '../css/header.css'
 import {  HeaderSidebar, HeaderLogo, HeaderHead, HeaderMenu, HeaderCenter } from './header-section'
 import { VscArrowRight, VscArrowLeft } from 'react-icons/vsc'
-import '../css/header.css'
 import { useState, useEffect } from 'react'
 
 const SLIDE_COUNTDOWN = 4000
@@ -10,7 +10,7 @@ const SLIDE = [{
   heading: 'Panel of Interior',
 }, {
   img: '/imgs/slider2-home1.jpeg',
-  text: 'art',
+  text: 'style',
   heading: 'Masterful Art'
 }, {
   img: '/imgs/slider3-home1.jpeg',
@@ -19,6 +19,7 @@ const SLIDE = [{
 }]
 
 const Header = () => {
+
   const [ currentSlideIndex, setCurrentSlideIndex ] = useState(0)
 
   const currentSlide = SLIDE[currentSlideIndex]
@@ -44,7 +45,7 @@ const Header = () => {
 
     return () => clearTimeout(slideChangeTimeout)
     // eslint-disable-next-line
-  }, [ currentSlideIndex ])
+  }, [currentSlideIndex])
 
   return (
     <div id='header' className='header-grid relative'>

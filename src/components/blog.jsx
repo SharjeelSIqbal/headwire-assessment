@@ -1,9 +1,9 @@
 import '../css/blog.css'
 import { BlogCardContainer } from './blog-section'
-import { BracketHeading, SectionSubHeading } from './layout'
+import { BracketHeading, SectionSubHeading, WhiteBackgroundStyle } from './layout'
 
 const Blog = () => (
-  <div className='ptb-4'>
+  <div className='ptb-5 relative'>
     <div id='blog' className='w-container column m-center'>
       <div className="flex space-between align-center">
         <div className='column'>
@@ -19,6 +19,7 @@ const Blog = () => (
       </div>
       <BlogCardContainer />
     </div>
+    <WhiteBackgroundStyle />
   </div>
 )
 

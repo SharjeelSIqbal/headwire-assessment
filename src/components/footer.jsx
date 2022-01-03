@@ -5,7 +5,6 @@ import { FiPhone, FiSend } from 'react-icons/fi'
 import { FooterCopyright } from './footer-section'
 
 const Footer = () => (
-  <>
   <footer id='footer' className='footer-background'>
     <div className='ptb-4'>
       <div className='w-container flex align-center space-between m-center raleway'>
@@ -64,7 +63,6 @@ const Footer = () => (
     </div>
     <FooterCopyright />
   </footer>
-  </>
 )
 
 export default Footer

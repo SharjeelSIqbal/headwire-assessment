@@ -3,7 +3,7 @@ import { AiOutlinePlus, AiOutlineClose } from 'react-icons/ai'
 import { useState } from 'react'
 import Modal from 'react-modal'
 
-const customStyles = {
+const CUSTOM_STYLES = {
   content: {
     top: '50%',
     left: '50%',
@@ -46,7 +46,7 @@ const TeamMember = ({ member }) => {
       </div>
       <Modal
         isOpen={isModalOpen}
-        style={customStyles}
+        style={CUSTOM_STYLES}
         onRequestClose={closeModal}
         contentLabel='Team Member Info Modal'
       >
@@ -61,7 +61,7 @@ const TeamMember = ({ member }) => {
           </div>
           <div className='row-center g-2'>
             <div className='circle w-50 circle-img'>
-              <img className='w-100' src={member.profile_picture} alt={`${member.first_name}  ${member.last_name}`} />
+              <img className='w-100 circle-img-profile' src={member.profile_picture} alt={`${member.first_name}  ${member.last_name}`} />
             </div>
           </div>
           <div className='column g-pt5 white-text lighter titillium'>

@@ -1,6 +1,8 @@
 const HeaderLogo = () => (
   <div className='header-logo'>
-    <img src="/imgs/logo.svg" alt="logo" />
+    <a href="/">
+      <img src="/imgs/logo.svg" alt="logo" />
+    </a>
   </div>
 )
 
