@@ -1,10 +1,8 @@
-.founder-section {
-  padding: 3.25rem 0;
+.founder-background {
   background-color: #1A1A1A;
 }
 
-.founder-container {
-  max-width: 950px;
+.founder-z{
   z-index: 1;
 }
 

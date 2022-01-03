@@ -47,7 +47,6 @@
   color: whitesmoke;
 }
 
-
 /* Text Styling */
 
 .text-align-right {
@@ -62,7 +61,11 @@
   line-height: 1.5;
 }
 
-/* Margin and Padding */
+.uppercase {
+  text-transform: uppercase;
+}
+
+/* Margin */
 
 .m-0 {
   margin: 0;
@@ -120,7 +123,7 @@
   padding: 1rem;
 }
 
-.pt-half {
+.pt-pt5 {
   padding-top: .5rem;
 }
 
@@ -269,41 +272,10 @@ width: 25%;
   transition: transform .5s ease-out;
 }
 
-.bar1, .bar2, .bar3 {
-  width: 28px;
-  height: 4px;
-  background-color: whitesmoke;
-  margin: 8px 0;
-  transition: 0.4s;
-  border-radius: 2px;
-}
-
-.bar2 {
-  height: 3px;
-}
-
-.bar3 {
-  height: 2px;
-}
-
-.change .bar1 {
-  -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
-  transform: rotate(-45deg) translate(-9px, 6px) ;
-}
-
-.change .bar2 {
-  opacity: 0;
-}
-
-.change .bar3 {
-  -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
-  transform: rotate(45deg) translate(-8px, -8px) ;
-}
-
 .triangle {
   position: absolute;
   bottom: 0;
-  left: 40%;
+  left: 35%;
   width: 0;
   height: 0;
   border: 0px solid transparent;

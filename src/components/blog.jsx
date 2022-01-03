@@ -1,5 +1,5 @@
 import '../css/blog.css'
-import { BlogCardContainer } from './blog'
+import { BlogCardContainer } from './blog-section'
 import { BracketHeading, SectionSubHeading } from './layout'
 
 const Blog = () => (
@@ -7,11 +7,11 @@ const Blog = () => (
     <div id='blog' className='w-container column m-center'>
       <div className="flex space-between align-center">
         <div className='column'>
-          <BracketHeading> OUR BLOG </BracketHeading>
+          <BracketHeading className='uppercase'> Our Blog </BracketHeading>
           <SectionSubHeading className='section-heading'>Read Our Latest News</SectionSubHeading>
           <div className='border-dotted' />
         </div>
-        <button className='blog-button relative'>
+        <button className='blog-button uppercase relative'>
           View All
         <div className='blog-button-line-horizontal' />
         <div className='blog-button-line-vertical' />
