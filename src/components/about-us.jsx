@@ -1,4 +1,4 @@
-import { BracketHeading, SectionSubHeading } from './layout'
+import { BracketHeading, SectionSubHeading, WhiteBackgroundStyle } from './layout'
 import { AboutUsCardContainer } from './about-us-section'
 import '../css/about-us.css';
 
@@ -18,7 +18,7 @@ const AboutUs = () => {
   }]
 
   return (
-    <div id='#about-us' className='ptb-4'>
+    <div id='#about-us' className='ptb-4 relative'>
       <div className='w-container column-center m-center'>
         <div className='column-center'>
           <BracketHeading className='uppercase'> Our Services </BracketHeading>
@@ -37,6 +37,7 @@ const AboutUs = () => {
             ))}
         </div>
       </div>
+      <WhiteBackgroundStyle />
     </div>
   )
 }
