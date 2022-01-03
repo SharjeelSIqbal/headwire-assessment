@@ -212,6 +212,9 @@
 
 /* Drop Down Menu */
 
+
+/* Delay Drop Down  */
+/* Allows use of the drop down even after the mouse has been moved outside of the hover radius for a few ms */
 .header-links:hover .header-home-drop-down,
 .header-links:hover .header-pages-drop-down,
 .header-links:hover .header-services-drop-down,
@@ -221,6 +224,8 @@
   transform: scale(1);
   transition: scale .2s ease-in;
 }
+
+
 
 .header-pages-drop-down,
 .header-services-drop-down,
