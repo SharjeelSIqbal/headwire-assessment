@@ -3,7 +3,6 @@ import { AiOutlinePlus, AiOutlineClose } from 'react-icons/ai'
 import { useState } from 'react'
 import Modal from 'react-modal'
 
-
 const customStyles = {
   content: {
     top: '50%',
@@ -21,17 +20,15 @@ const customStyles = {
   overlay: {
     backgroundColor: 'rgba(0, 0, 0, .25)'
   }
-};
+}
 
 Modal.setAppElement('#root')
 
 const TeamMember = ({ member }) => {
 
   const [ isModalOpen, setIsModalOpen ] = useState(false)
-
   const openModal = () => setIsModalOpen(true)
-
-  const closeModal = () =>  setIsModalOpen(false);
+  const closeModal = () =>  setIsModalOpen(false)
 
   return (
     <div className='team-member-card w-20 relative'>

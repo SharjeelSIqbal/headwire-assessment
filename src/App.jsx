@@ -11,6 +11,6 @@ const App = () => (
     <Footer />
     <ScrollToTop />
   </>
-  )
+)
 
 export default App
