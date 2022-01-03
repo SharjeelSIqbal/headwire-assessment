@@ -3,5 +3,5 @@ import { default as TeamContainer } from './team-container'
 
 export {
   TeamContainer,
-  TeamMember
+  TeamMember,
 }

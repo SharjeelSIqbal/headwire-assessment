@@ -52,3 +52,16 @@
 .team-min-height {
   min-height: 291px;
 }
+
+.team-modal-container {
+  padding: 2rem;
+}
+
+.team-modal-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: transparent;
+  color: whitesmoke;
+  font-size: 24px;
+}
