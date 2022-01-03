@@ -1,6 +1,6 @@
+import '../css/about-us.css'
 import { BracketHeading, SectionSubHeading, WhiteBackgroundStyle } from './layout'
 import { AboutUsCardContainer } from './about-us-section'
-import '../css/about-us.css';
 
 const ACCOLADES = [{
   bracket: '180+',

@@ -11,7 +11,7 @@ const HeaderSidebar = () => (
         ))
         }
     </ul>
-</div>
+  </div>
 )
 
 export default HeaderSidebar
