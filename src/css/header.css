@@ -286,8 +286,6 @@ button {
   transition: width .25s ease-out;
 }
 
-
-
 .header-drop-down-list-item:hover .header-drop-down-border {
   transition: width .25s ease-in;
   width: 25px;
