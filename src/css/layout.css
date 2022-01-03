@@ -65,6 +65,10 @@
   text-transform: uppercase;
 }
 
+.text-transform-normal {
+  text-transform: none;
+}
+
 /* Margin */
 
 .m-0 {
@@ -117,6 +121,10 @@
 
 .p-0 {
   padding: 0;
+}
+
+.p-pt5 {
+  padding: 0.5rem;
 }
 
 .p-1 {
@@ -310,7 +318,12 @@ width: 25%;
   border: 1px solid #B6B6B8;
 }
 
+
 /* General Styling */
+
+.hidden{
+  display: none;
+}
 
 .relative {
   position: relative;
