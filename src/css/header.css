@@ -252,3 +252,43 @@ button {
 .header-cart:active {
   transform: translateY(3px);
 }
+
+/* Drop Down Menu */
+
+.header-drop-down {
+  width: 250px;
+  max-width: 300px;
+  background-color: #2A2A2A;
+  position: absolute;
+  top: 90px;
+  left: -20px;
+  transition: height .5s ease-in;
+  font-size: 14px;
+  z-index: 2;
+}
+
+.header-drop-down-list-item{
+  color: #676767;
+  transition: color .25s ease-out;
+}
+
+.header-drop-down-list-item:hover {
+  transition: color .25s ease-out;
+  color: whitesmoke;
+}
+
+.header-drop-down-border {
+  width: 0px;
+  height: 1px;
+  border-bottom: 1px solid whitesmoke;
+  border-width: 1px;
+  margin-right: .5rem;
+  transition: width .25s ease-out;
+}
+
+
+
+.header-drop-down-list-item:hover .header-drop-down-border {
+  transition: width .25s ease-in;
+  width: 25px;
+}
